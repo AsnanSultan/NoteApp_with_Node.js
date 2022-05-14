@@ -22,7 +22,7 @@ mongoose.connect('mongodb+srv://AsnanSultan:asnan385@cluster0.xpnub.mongodb.net/
 
 });
 
-const PORT=proces.env.PORT || 5000;
+const PORT=process.env.PORT || 5000;
 app.listen(PORT,function(){
     console.log('Server Started at port: '+`${PORT}`);
 });
